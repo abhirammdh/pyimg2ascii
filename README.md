@@ -16,7 +16,7 @@ pip install pyimg2asciii
 
 ### Example 1: Print ASCII art in terminal
 ```python
-from pyimg2asciii import convert_image_to_ascii
+from image2ascii import convert_image_to_ascii
 
 # Convert image to ASCII
 ascii_art = convert_image_to_ascii("input.jpg", new_width=80)
@@ -29,7 +29,7 @@ print(ascii_art)
 
 ### Example 2: Save ASCII art to file
 ```python
-from pyimg2asciii import convert_image_to_ascii
+from image2ascii import convert_image_to_ascii
 
 ascii_art = convert_image_to_ascii("input.jpg", new_width=100)
 
